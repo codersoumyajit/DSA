@@ -7,6 +7,7 @@ class Solution {
                 i++;
             else if (arr[i] + arr[j] > target)
                 j--;
+                
             else
                 return new int[] {i+1, j+1};
         }
